@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f1ebeb;
+    padding: 10px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-image: url('http://www.ucyt.edu.ni/wp-content/uploads/2020/10/sistemas-2048x1365.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
+
+.nav-menu li {
+    margin: 0 15px;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+   
+}
+
+.nav-menu a:hover {
+    background-color: #f5ecec;
+    border-radius: 5px;
+}
+
+main {
+    padding: 25%;
+    text-align: center;
+    background-image: url('https://astelus.com/wp-content/viajes/Lago-Moraine-Parque-Nacional-Banff-Alberta-Canada.jpg')
+}
