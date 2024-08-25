@@ -1,0 +1,19 @@
+@import url(style.css);
+.grid_flujo_denso{
+    /*grid 5c x 4x */
+    grid-template-columns: repeat(5 1fr);
+    grid-template-rows: repeat(4 200px);
+    /*grid-auto-flow: row dense;*/
+    grid-auto-flow: column;
+    
+}
+
+.grid_flujo_denso .item:nth-child(9){
+    background-color: brown;
+    color: white;
+    /*grid-column: span 3; */
+    /*grid-row: span 3;*/
+    grid-row:2;
+    grid-column: 4;
+    grid-column: span 2;
+}

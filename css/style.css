@@ -1,0 +1,37 @@
+
+
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+body{
+    background-color: white;
+}
+.container{
+    margin: 0 auto;
+    width: 80%;
+    height: 80vh;
+    background-color: dimgrey;
+    border: solid 1px black
+}
+.item{
+    padding: 1rem;
+    font-size: 1.25em;
+    background-color: silver;
+    border: solid 1px white;
+}
+
+.menu{
+font-size: 1.5rem;
+}
+
+.menu li{
+    text-decoration: none;
+    color: black;
+}

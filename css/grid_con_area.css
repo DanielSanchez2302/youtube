@@ -1,0 +1,29 @@
+@import url(style.css);
+
+.grid_con_area {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    'header header header header'
+    'sidebar content content content'
+    'sidebar content content content'
+    'footer footer footer footer';
+
+}
+.header{
+    grid-area: header;
+    background-color: azure;
+}
+.content{
+    grid-area: content;
+    background-color: blue;
+}
+.sidebar{
+    grid-area: sidebar;
+    background-color: brown;
+}
+.footer{
+    grid-area: footer;
+    background-color: blueviolet;
+}
